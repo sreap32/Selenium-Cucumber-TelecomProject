@@ -1,0 +1,157 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-13T04:00:17.100Z",
+        "line": 26,
+        "name": "VerifyAdd Tariff Plan",
+        "description": "",
+        "id": "task-3;verifyadd-tariff-plan",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3959000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user wants to see Guru demo site",
+            "match": {
+              "location": "TelecomProject.stepsDefinitions.TelecomStepsDefinitions.the_user_wants_to_see_guru_demo_site()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3698000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user wants to Add Tariff Plan",
+            "match": {
+              "location": "TelecomProject.stepsDefinitions.TelecomStepsDefinitions.the_user_wants_to_add_tariff_plan()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user wants to verify \"Add Tariff Plan\" header",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Add Tariff Plan\"",
+                  "offset": 25
+                }
+              ],
+              "location": "TelecomProject.stepsDefinitions.TelecomStepsDefinitions.the_user_wants_to_verify_header(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1610000000,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "The user wants to Add Tariff Plan details as",
+            "match": {
+              "location": "TelecomProject.stepsDefinitions.TelecomStepsDefinitions.the_user_wants_to_add_tariff_plan_details_as(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Monthly Rental",
+                  "10"
+                ]
+              },
+              {
+                "cells": [
+                  "Free Local Minutes",
+                  "12"
+                ]
+              },
+              {
+                "cells": [
+                  "Free International Minutes",
+                  "13"
+                ]
+              },
+              {
+                "cells": [
+                  "Free SMS Pack",
+                  "15"
+                ]
+              },
+              {
+                "cells": [
+                  "Local Per Minutes Charges",
+                  "18"
+                ]
+              },
+              {
+                "cells": [
+                  "International Per Minutes Charges",
+                  "25"
+                ]
+              },
+              {
+                "cells": [
+                  "SMS Per Charges",
+                  "28"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1392000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user wants to submit",
+            "match": {
+              "location": "TelecomProject.stepsDefinitions.TelecomStepsDefinitions.the_user_wants_to_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user wants to verify message as \"Congratulation you add Tariff Plan\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Congratulation you add Tariff Plan\"",
+                  "offset": 36
+                }
+              ],
+              "location": "TelecomProject.stepsDefinitions.TelecomStepsDefinitions.the_user_wants_to_verify_message_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@TC_3"
+          }
+        ]
+      }
+    ],
+    "name": "Task 3",
+    "description": "",
+    "id": "task-3",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Renastech.feature",
+    "tags": []
+  }
+]

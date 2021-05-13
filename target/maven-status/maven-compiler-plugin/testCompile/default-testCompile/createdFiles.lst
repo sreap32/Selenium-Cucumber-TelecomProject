@@ -1,0 +1,11 @@
+TelecomProject\utilities\BrowserUtils.class
+TelecomProject\pages\TelecomAddCustomer.class
+TelecomProject\pages\TelecomBillingAddress.class
+TelecomProject\utilities\PropertiesReading.class
+TelecomProject\utilities\Driver.class
+TelecomProject\utilities\BasePage.class
+TelecomProject\pages\TelecomAddTariff.class
+TelecomProject\runner\CukesRunner.class
+TelecomProject\stepsDefinitions\Hook.class
+TelecomProject\stepsDefinitions\TelecomStepsDefinitions.class
+TelecomProject\pages\TelecomHeader.class
